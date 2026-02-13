@@ -1,0 +1,21 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+#Excude any folder starting with LocalTests
+LocalTests*/
+
+# Logs
+*.log
+
+# Credentials
+credentials.ts
+credentials.js
+
+
+
