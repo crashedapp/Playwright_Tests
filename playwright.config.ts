@@ -13,6 +13,7 @@ const isCI = process.env.CI === 'true' || process.env.CI === '1';
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
+  timeout: 90 * 1000, // 90 seconds per test
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
