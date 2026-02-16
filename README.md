@@ -4,10 +4,6 @@
 # Tips 
 
 
-Make sure to create your `utilities/credentials.ts` file
-as specified in the [utilities/credentials.readme.md](utilities/credentials.readme.md) file.
-Use the `user` `baseUrl` property for your page goto method.
-
 When Running Tests, The Test Results Report and Videos (if enabled) will be in the playright-report folder, not the test-results folder. This confuses some people.
 
 Video recording of tests can be turned on or off by going to `playwright.config.ts` and setting the video option to 'on' or 'off'.
